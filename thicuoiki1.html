@@ -5,6 +5,7 @@
     <title>Title</title>
 </head>
 <body>
+<canvas id="draw" width=200px" height="100px"></canvas>
 <script>
     // function timsoThu3() {
     //     let arr = [6,8,4,5,3]
@@ -24,22 +25,32 @@
 
 
 
-    function tryRemoveFromArray(arr, index) {
-        if (index < arr.length && index >= 0) {
-            let newArr = [];
-            for (let i = 0; i < arr.length; i++) {
-                if (i === index) {
-                } else {
-                    newArr.push(arr[i]);
-                }
-            }
-            console.log(newArr);
-        }
-        else {
-            console.log(arr);
-        }
-    }
-    tryRemoveFromArray([6, 5, 4, 3, 6], 3);
+    // function tryRemoveFromArray(arr, index) {
+    //     if (index < arr.length && index >= 0) {
+    //         let newArr = [];
+    //         for (let i = 0; i < arr.length; i++) {
+    //             if (i === index) {
+    //             } else {
+    //                 newArr.push(arr[i]);
+    //             }
+    //         }
+    //         console.log(newArr);
+    //     }
+    //     else {
+    //         console.log(arr);
+    //     }
+    // }
+    // tryRemoveFromArray([6, 5, 4, 3, 6], 3);
+
+
+    // let canvas = document.getElementById("draw");
+    //
+    // if (canvas.getContext)
+    // {
+    //     let ctx = canvas.getContext('2d');
+    //     ctx.fillStyle='#000000';
+    //     ctx.fillRect(10, 10, 200, 100);
+    // }
 </script>
 <!--Bài 1: Cho danh sách các điểm thi ở trong một mảng-->
 <!--Hãy viết hàm tìm được điểm thi cao thứ 3 với đầu vào là một-->
